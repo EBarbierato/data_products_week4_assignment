@@ -26,7 +26,7 @@ fluidPage(
     
     
     # Define the sidebar with one input 
-    sidebarPanel(p(strong("Documentation:",style="color:red"), a("User Help Page",href="http://rpubs.com/joanperez/293126")), 
+    sidebarPanel(p(strong("Documentation:",style="color:red"), a("User Help Page",href="http://rpubs.com/enricobarbierato/help")), 
                  selectInput("Country", "Country:",  
                              choices=c("Austria","Belgium","Denmark","France","Germany")), 
                  hr(), 
