@@ -1,0 +1,28 @@
+---
+title: "Documentation"
+author: "Enrico Barbierato"
+date: "July 23, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Application - EU countries population growth
+
+This application shows a histogram about the population variation between 2005 - 2016 of Austria, Belgium, France, Germany and Denmark. The user selects a country from a drop-down list and the histogram (together with the y-axix label) changes accordingly.
+
+The repository contains three files:
+
+* ui.r
++ server.r
++ README.md
++ help.rmd
++ EDU_DEM_23072019164604276.csv
+
+##Shiny Application link
+https://millepattes.shinyapps.io/final_assingnment/
+
+## Rpubs presentation 
+http://rpubs.com/enricobarbierato/week4Assignment
